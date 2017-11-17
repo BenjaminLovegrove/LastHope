@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: c84cb7410bb12e14c8c6f40a779cb965
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature|Body
+    100004: Armature|Rudder_E
+    100006: Armature|Rudder_N
+    100008: Armature|Rudder_S
+    100010: Armature|Rudder_W
+    100012: //RootNode
+    100014: Rocket_LOD1a
+    100016: Rocket_LOD1b
+    100018: Rocket_LOD2
+    100020: Rocket_LOD3
+    100022: Rocket_LOD1
+    100024: Body
+    100026: Rudder_E
+    100028: Rudder_N
+    100030: Rudder_S
+    100032: Rudder_W
+    100034: Rocket_CollisionMesh
+    100036: Rocket_CollisionMesh.001
+    100038: Rocket_CollisionMesh.002
+    100040: Rocket_CollisionMesh.003
+    100042: Rocket_CollisionMesh.004
+    100044: Rocket_CollisionMesh.005
+    100046: Rocket_CollisionMesh.006
+    100048: Rocket_CollisionMesh.007
+    100050: Rocket_CollisionMesh.008
+    100052: Rocket_LOD0
+    100054: Rocket_CollisionMesh.009
+    100056: Rocket_CollisionMesh.010
+    100058: Rocket_CollisionMesh.06
+    400000: Armature
+    400002: Armature|Body
+    400004: Armature|Rudder_E
+    400006: Armature|Rudder_N
+    400008: Armature|Rudder_S
+    400010: Armature|Rudder_W
+    400012: //RootNode
+    400014: Rocket_LOD1a
+    400016: Rocket_LOD1b
+    400018: Rocket_LOD2
+    400020: Rocket_LOD3
+    400022: Rocket_LOD1
+    400024: Body
+    400026: Rudder_E
+    400028: Rudder_N
+    400030: Rudder_S
+    400032: Rudder_W
+    400034: Rocket_CollisionMesh
+    400036: Rocket_CollisionMesh.001
+    400038: Rocket_CollisionMesh.002
+    400040: Rocket_CollisionMesh.003
+    400042: Rocket_CollisionMesh.004
+    400044: Rocket_CollisionMesh.005
+    400046: Rocket_CollisionMesh.006
+    400048: Rocket_CollisionMesh.007
+    400050: Rocket_CollisionMesh.008
+    400052: Rocket_LOD0
+    400054: Rocket_CollisionMesh.009
+    400056: Rocket_CollisionMesh.010
+    400058: Rocket_CollisionMesh.06
+    2300000: Rocket_CollisionMesh
+    2300002: Rocket_CollisionMesh.001
+    2300004: Rocket_CollisionMesh.002
+    2300006: Rocket_CollisionMesh.003
+    2300008: Rocket_CollisionMesh.004
+    2300010: Rocket_CollisionMesh.005
+    2300012: Rocket_CollisionMesh.006
+    2300014: Rocket_CollisionMesh.007
+    2300016: Rocket_CollisionMesh.008
+    2300018: Rocket_CollisionMesh.009
+    2300020: Rocket_CollisionMesh.010
+    2300022: Rocket_CollisionMesh.06
+    3300000: Rocket_CollisionMesh
+    3300002: Rocket_CollisionMesh.001
+    3300004: Rocket_CollisionMesh.002
+    3300006: Rocket_CollisionMesh.003
+    3300008: Rocket_CollisionMesh.004
+    3300010: Rocket_CollisionMesh.005
+    3300012: Rocket_CollisionMesh.006
+    3300014: Rocket_CollisionMesh.007
+    3300016: Rocket_CollisionMesh.008
+    3300018: Rocket_CollisionMesh.009
+    3300020: Rocket_CollisionMesh.010
+    3300022: Rocket_CollisionMesh.06
+    4300000: Rocket_LOD2
+    4300002: Rocket_LOD1a
+    4300004: Rocket_LOD3
+    4300006: Rocket_LOD1b
+    4300008: Rocket_LOD1
+    4300010: Rocket_CollisionMesh.008
+    4300012: Rocket_CollisionMesh.007
+    4300014: Rocket_CollisionMesh.006
+    4300016: Rocket_CollisionMesh.005
+    4300018: Rocket_CollisionMesh.004
+    4300020: Rocket_CollisionMesh.003
+    4300022: Rocket_CollisionMesh.002
+    4300024: Rocket_CollisionMesh.001
+    4300026: Rocket_CollisionMesh
+    4300028: Rocket_LOD0
+    4300030: Rocket_CollisionMesh.010
+    4300032: Rocket_CollisionMesh.009
+    4300034: Rocket_CollisionMesh.06
+    7400000: Armature|Rudder_W
+    7400002: Rudder_N_Left
+    7400004: Rudder_N_Right
+    7400006: Rudder_E_Left
+    7400008: Rudder_E_Right
+    7400010: Rudder_S_Left
+    7400012: Rudder_S_Right
+    7400014: Rudder_W_Left
+    7400016: Rudder_W_Right
+    9500000: //RootNode
+    13700000: Rocket_LOD1a
+    13700002: Rocket_LOD1b
+    13700004: Rocket_LOD2
+    13700006: Rocket_LOD3
+    13700008: Rocket_LOD1
+    13700010: Rocket_CollisionMesh
+    13700012: Rocket_CollisionMesh.001
+    13700014: Rocket_CollisionMesh.002
+    13700016: Rocket_CollisionMesh.003
+    13700018: Rocket_CollisionMesh.004
+    13700020: Rocket_CollisionMesh.005
+    13700022: Rocket_CollisionMesh.006
+    13700024: Rocket_CollisionMesh.007
+    13700026: Rocket_CollisionMesh.008
+    13700028: Rocket_LOD0
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rudder_N_Left
+      takeName: Armature|Rudders
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 0
+      - path: Armature/Body/Rudder_N
+        weight: 1
+      - path: Armature/Body/Rudder_S
+        weight: 0
+      - path: Armature/Body/Rudder_W
+        weight: 0
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 1
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_N_Right
+      takeName: Armature|Rudders
+      firstFrame: 60
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 0
+      - path: Armature/Body/Rudder_N
+        weight: 1
+      - path: Armature/Body/Rudder_S
+        weight: 0
+      - path: Armature/Body/Rudder_W
+        weight: 0
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_E_Left
+      takeName: Armature|Rudders
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 1
+      - path: Armature/Body/Rudder_N
+        weight: 0
+      - path: Armature/Body/Rudder_S
+        weight: 0
+      - path: Armature/Body/Rudder_W
+        weight: 0
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_E_Right
+      takeName: Armature|Rudders
+      firstFrame: 60
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 1
+      - path: Armature/Body/Rudder_N
+        weight: 0
+      - path: Armature/Body/Rudder_S
+        weight: 0
+      - path: Armature/Body/Rudder_W
+        weight: 0
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_S_Left
+      takeName: Armature|Rudders
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 0
+      - path: Armature/Body/Rudder_N
+        weight: 0
+      - path: Armature/Body/Rudder_S
+        weight: 1
+      - path: Armature/Body/Rudder_W
+        weight: 0
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_S_Right
+      takeName: Armature|Rudders
+      firstFrame: 60
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 0
+      - path: Armature/Body/Rudder_N
+        weight: 0
+      - path: Armature/Body/Rudder_S
+        weight: 1
+      - path: Armature/Body/Rudder_W
+        weight: 0
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_W_Left
+      takeName: Armature|Rudders
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 0
+      - path: Armature/Body/Rudder_N
+        weight: 0
+      - path: Armature/Body/Rudder_S
+        weight: 0
+      - path: Armature/Body/Rudder_W
+        weight: 1
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rudder_W_Right
+      takeName: Armature|Rudders
+      firstFrame: 60
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Body
+        weight: 0
+      - path: Armature/Body/Rudder_E
+        weight: 0
+      - path: Armature/Body/Rudder_N
+        weight: 0
+      - path: Armature/Body/Rudder_S
+        weight: 0
+      - path: Armature/Body/Rudder_W
+        weight: 1
+      - path: Rocket_LOD0
+        weight: 0
+      - path: Rocket_LOD1
+        weight: 0
+      - path: Rocket_LOD2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .125
+    - .00999999978
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
